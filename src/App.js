@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Component1 from './components/Component1'
 function App() {
-  const name = "Nilanjan Chakraborty";
-  const element = <h1>Hello , {name}</h1>
+ 
   return (
-    {element}
+    <Component1 />
     
   );
 }
