@@ -1,7 +1,11 @@
 import React from 'react'
-
+import styled, { css } from 'styled-components'
 const name = 'Nilanjan Chakraborty';
-const element = <h1>Hello, {name}</h1>;
+const Header = styled.h1`
+font-family: "Segoe UI Light";
+text-align: center;
+`
+const element = <Header>Hello, {name}</Header>;
 
 function Component1() {
     return (
@@ -12,3 +16,5 @@ function Component1() {
 }
 
 export default Component1
+
+
